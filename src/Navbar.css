@@ -26,4 +26,24 @@
   .navbar-links a:hover {
     text-decoration: underline;
   }
-  
+
+  .navbar-logins{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-logins li {
+    margin-right: 1.5rem;
+  }
+
+  .navbar-logins a {
+    color: salmon;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .navbar-logins a:hover{
+    text-decoration:underline;
+  }

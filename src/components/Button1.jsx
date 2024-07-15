@@ -21,11 +21,12 @@ export default function Button1() {
 const Container = styled.div`
   text-align: center;
 `
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(100);
   
     const counterFunc = () => {
       setCount(count + 1);
     };
+
 return(
 
   <Container>
